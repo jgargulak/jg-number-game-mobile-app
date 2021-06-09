@@ -4,11 +4,11 @@ import Colors from '../constants/colors';
 
 
 const NumberContainer = (props: any) => {
- return (
-   <View style={styles.container}>
-     <Text style={styles.number}>{props.children}</Text>
-   </View>
- );
+  return (
+    <View style={styles.container}>
+      <Text style={styles.number}>{props.children}</Text>
+    </View>
+  );
 };
 
 const styles = StyleSheet.create({
